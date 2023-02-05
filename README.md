@@ -1,6 +1,17 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###src/components
+Details.js - the home page where user data can be entered to be stored on Blockchain
+
+GetDetails.js-Validatir page ,where authorized validators can get on chain data and remove or mor authorizers
+
+###src/components/solidityFiles
+
+KYC.sol - the deployed solidity code
+KYC.js - contains ABI & Contract address to interact with the deployed contract
+
+
 
 ## Available Scripts
 
